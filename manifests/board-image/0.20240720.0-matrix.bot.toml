@@ -1,0 +1,25 @@
+format = "v1"
+[[distfiles]]
+name = "u-boot-with-spl-vala.bin"
+size = 1034448
+urls = [ "https://mirror.iscas.ac.cn/revyos/extra/images/lpi4a/20240720/u-boot-with-spl-vala.bin",]
+
+[distfiles.checksums]
+sha256 = "2d462ac8c5853abc8981275863bdaf7c58cb60a627e31fefe7ca59ed55bf973a"
+sha512 = "b992245e67c6e1545b470e8f4180da8ee7b616fbd90def77fb1d3d80b816765a88a66134fab266bd8ec483a83a64ba50b656f29029031e7672274332eadd9d63"
+
+[metadata]
+desc = "U-Boot image for LicheePi 4A (8G RAM) and RevyOS 20240720"
+
+[blob]
+distfiles = [ "u-boot-with-spl-lpi4a-8g.20231210.bin",]
+
+[provisionable]
+strategy = "fastboot-v1(lpi4a-uboot)"
+
+[metadata.vendor]
+name = "PLCT"
+eula = ""
+
+[provisionable.partition_map]
+uboot = "u-boot-with-spl-lpi4a-8g.20231210.bin"
