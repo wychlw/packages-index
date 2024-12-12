@@ -1,0 +1,25 @@
+format = "v1"
+[[distfiles]]
+name = "mars_debian-desktop_sdk-v3.6.1_emmc_v1.0.6.img.zip"
+size = 1371669098
+urls = [ "https://github.com/milkv-mars/mars-buildroot-sdk/releases/download/V1.0.6/mars_debian-desktop_sdk-v3.6.1_emmc_v1.0.6.img.zip",]
+
+[distfiles.checksums]
+sha256 = "3933b8cfdd26e76f5e5831f87232fb5abc7064b06b9a7888b1f65c748a4597b5"
+sha512 = "f0356bb730cf61e54f1db8822f4a380e912ad1faa8c6829df7724a6b0f9f296810aea47ea578d2b5ee5fceb5954a028bea04893820c18b1f1918b50e74e53de3"
+
+[metadata]
+desc = "Official Debian Desktop SDK image for Milk-V Mars v1.0.6 (SD card)"
+
+[blob]
+distfiles = [ "mars_debian-desktop_sdk-v3.6.1_emmc_v1.0.6.img.zip",]
+
+[provisionable]
+strategy = "dd-v1"
+
+[metadata.vendor]
+name = "Milk-V"
+eula = ""
+
+[provisionable.partition_map]
+disk = "mars_debian-desktop_sdk-v3.6.1_emmc_v1.0.6.img"
