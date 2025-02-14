@@ -25,6 +25,5 @@ eula = ""
 [provisionable.partition_map]
 disk = "bianbu-24.04-desktop-k1-v2.0.4-release-20241206002355.img"
 
-# This file is created by CI Sync Package Index inside support-matrix
-# Run ID: 13302859068
-# Run URL: https://github.com/ruyisdk/support-matrix/actions/runs/13302859068
+# This file is created by program renew_ruyi_index in support-matrix
+# Run: In local
