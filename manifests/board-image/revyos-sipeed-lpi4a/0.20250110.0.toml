@@ -1,28 +1,28 @@
 format = "v1"
 [[distfiles]]
 name = "root-lpi4a-20250110_151339.ext4.zst"
-size = 1334957695
+size = 256413696
 urls = [ "https://mirror.iscas.ac.cn/revyos/extra/images/lpi4a/20250110/root-lpi4a-20250110_151339.ext4.zst",]
 restrict = [ "mirror",]
 
 [distfiles.checksums]
-sha256 = "748ffbedd944d4507d51c58d589bdc1c6f59d2e22638fe18ba32145a365598ab"
-sha512 = "a5ebc3b22b455c25312dde0877b367d8af7d843602f37a786a90c4da44a99dd3aa4a5c4eee54a34d29ef29589189747db24318fc7c379a77a1bd707e38d3de90"
+sha256 = "137521970be0db07e0453ed1f6c7f8b9ba6436aa454d652a4c0cb09a9118763a"
+sha512 = "5a281efff8aed0cf1d45023d0f56023509bc1e907b971da2c77ec97e88f902e314ade41e3b35aeeb9d49e232226721946d225908575b6f9ae3ce2a88c1fe4e8a"
 [[distfiles]]
-name = "u-boot-with-spl-lpi4a-main_8gemmc.bin"
-size = 1032312
-urls = [ "https://mirror.iscas.ac.cn/revyos/extra/images/lpi4a/20250110/u-boot-with-spl-lpi4a-main_8gemmc.bin",]
+name = "boot-lpi4a-20250110_151339.ext4.zst"
+size = 74321616
+urls = [ "https://mirror.iscas.ac.cn/revyos/extra/images/lpi4a/20250110/boot-lpi4a-20250110_151339.ext4.zst",]
 restrict = [ "mirror",]
 
 [distfiles.checksums]
-sha256 = "d5f46ed3324e8cc8d3cf41d167ac677ca399f1b10e2a430afcf79c4cec729417"
-sha512 = "bb1de9739e9b4cc9b88f0f4562ba222596328239a1a1e420624ea7598ae4bad50b1e60c9c62f658afa28e42d8eef44f67d8118728ea2e7b09066dec4a10c745b"
+sha256 = "e3018dedd74c6b9cba896d9d97a8fbbd8b772b7d61c5a88af30eb8ac21423870"
+sha512 = "3718ddcc57fecb32c122c8c56af66f1b1598d2333cdfadd73d14c85d129a2e2d44d353a6fc7ce41af8d056c9fa51466a29774456a89c4bec6e772f5a627d4196"
 
 [metadata]
 desc = "RevyOS 20250110 image for Sipeed LicheePi 4A"
 
 [blob]
-distfiles = [ "root-lpi4a-20250110_151339.ext4.zst", "u-boot-with-spl-lpi4a-main_8gemmc.bin",]
+distfiles = [ "root-lpi4a-20250110_151339.ext4.zst", "boot-lpi4a-20250110_151339.ext4.zst",]
 
 [provisionable]
 strategy = "fastboot-v1"
@@ -32,11 +32,8 @@ name = "PLCT"
 eula = ""
 
 [provisionable.partition_map]
-boot = "u-boot-with-spl-lpi4a-main_8gemmc"
+boot = "boot-lpi4a-20250110_151339.ext4"
 root = "root-lpi4a-20250110_151339.ext4"
 
-# This file is created by CI Sync Package Index inside support-matrix
-# Run ID: 12745127192
-# Run URL: https://github.com/ruyisdk/support-matrix/actions/runs/12745127192
-
-# Manually fixed restrict
+# This file is created by program renew_ruyi_index in support-matrix
+# Run: In local
