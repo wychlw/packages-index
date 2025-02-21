@@ -1,0 +1,29 @@
+format = "v1"
+[[distfiles]]
+name = "mars-cm_debian-desktop_sdk-v3.6.1_cm4-io-board_emmc_v1.0.6.img.zip"
+size = 1216348160
+urls = [ "https://github.com/milkv-mars/mars-buildroot-sdk/releases/download/V1.0.6/mars-cm_debian-desktop_sdk-v3.6.1_cm4-io-board_emmc_v1.0.6.img.zip",]
+restrict = [ "mirror",]
+
+[distfiles.checksums]
+sha256 = "b3d30a51105251943d7afbb868330aa3db45ab17f437c92ba7a4cabd38a5d725"
+sha512 = "ad5daf8e8ba321bcf4961fa5a266e5dfbb1e926e59dcfc72e5cb4ff530b00bd413231fc8e9864c4c0696c0bb3598d3e864e1a6d9d4713c5fafeac3d873f74603"
+
+[metadata]
+desc = "Official Debian Desktop SDK image for Milk-V Mars CM v1.0.6 (SD card)"
+
+[blob]
+distfiles = [ "mars-cm_debian-desktop_sdk-v3.6.1_cm4-io-board_emmc_v1.0.6.img.zip",]
+
+[provisionable]
+strategy = "dd-v1"
+
+[metadata.vendor]
+name = "Milk-V"
+eula = ""
+
+[provisionable.partition_map]
+disk = "mars-cm_debian-desktop_sdk-v3.6.1_cm4-io-board_emmc_v1.0.6.img"
+
+# This file is created by program renew_ruyi_index in support-matrix
+# Run: In local
