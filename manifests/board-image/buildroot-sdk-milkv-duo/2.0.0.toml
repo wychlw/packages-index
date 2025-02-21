@@ -25,8 +25,5 @@ eula = ""
 [provisionable.partition_map]
 disk = "milkv-duo-musl-riscv64-sd_v2.0.0.img"
 
-# This file is created by CI Sync Package Index inside support-matrix
-# Run ID: 12910390785
-# Run URL: https://github.com/ruyisdk/support-matrix/actions/runs/12910390785
-
-# Manually fixed restrict
+# This file is created by program renew_ruyi_index in support-matrix
+# Run: In local
