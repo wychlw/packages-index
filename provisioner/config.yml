@@ -515,6 +515,10 @@ image_combos:
 # Supported devices
 #
 
+  - id: openkylin-milkv-pioneer-v1.3
+    display_name: openkylin  for Pioneer Box
+    packages:
+      - board-image/openkylin-milkv-pioneer-v1.3
 devices:
   - id: awol-d1dev
     display_name: "Allwinner Nezha D1"
@@ -613,6 +617,7 @@ devices:
           - oerv-milkv-pioneer-base-nvme
           - oerv-milkv-pioneer-xfce-nvme
           - revyos-milkv-pioneer
+          - openkylin-milkv-pioneer-v1.3
       - id: v1.2
         display_name: "Milk-V Pioneer Box (v1.2)"
         supported_combos:
