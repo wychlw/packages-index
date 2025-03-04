@@ -515,6 +515,10 @@ image_combos:
 # Supported devices
 #
 
+  - id: debian-milkv-duos
+    display_name: debian sd for Milk-V Duo S
+    packages:
+      - board-image/debian-milkv-duos-sd
 devices:
   - id: awol-d1dev
     display_name: "Allwinner Nezha D1"
@@ -575,6 +579,7 @@ devices:
         supported_combos:
           - buildroot-milkv-duos-sd
 
+          - debian-milkv-duos
   - id: milkv-mars
     display_name: "Milk-V Mars"
     variants:
