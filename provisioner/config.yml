@@ -515,6 +515,10 @@ image_combos:
 # Supported devices
 #
 
+  - id: buildroot-milkv-duos
+    display_name: buildroot sd for Milk-V Duo S
+    packages:
+      - board-image/buildroot-milkv-duos
 devices:
   - id: awol-d1dev
     display_name: "Allwinner Nezha D1"
@@ -575,6 +579,7 @@ devices:
         supported_combos:
           - buildroot-milkv-duos-sd
 
+          - buildroot-milkv-duos
   - id: milkv-mars
     display_name: "Milk-V Mars"
     variants:
