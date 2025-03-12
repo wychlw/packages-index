@@ -519,6 +519,10 @@ image_combos:
     display_name: bianbu  for BananaPi BPI-F3
     packages:
       - board-image/bianbu-bpi-f3
+  - id: debian-milkv-duos-sd
+    display_name: debian sd for Milk-V Duo S
+    packages:
+      - board-image/debian-milkv-duos-sd
 devices:
   - id: awol-d1dev
     display_name: "Allwinner Nezha D1"
@@ -579,6 +583,7 @@ devices:
         supported_combos:
           - buildroot-milkv-duos-sd
 
+          - debian-milkv-duos-sd
   - id: milkv-mars
     display_name: "Milk-V Mars"
     variants:
