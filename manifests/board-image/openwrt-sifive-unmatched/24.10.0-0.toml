@@ -1,0 +1,32 @@
+format = "v1"
+[[distfiles]]
+name = "openwrt-24.10.0-sifiveu-generic-sifive_unmatched-ext4-sdcard.img.gz"
+size = 2761
+urls = [ "https://mirrors.tuna.tsinghua.edu.cn/openwrt/releases/24.10.0/targets/sifiveu/generic/openwrt-24.10.0-sifiveu-generic-sifive_unmatched-ext4-sdcard.img.gz",]
+restrict = [ "mirror",]
+
+[distfiles.checksums]
+sha256 = "092fd2261b9211c95af715cff9d7789db06dbb7ac0969dac1d1751ae79b7afc8"
+sha512 = "0fa7e7498948931e0d91ef7b3ce761aafac1982c4ab08fa9b2acc03f59dc2ac706099566326f3b7b5069eb56d5c1dbbf9489ff852354aa7c5cfbd13892791cee"
+
+[metadata]
+desc = "Official OpenWRT 24.10.0 image for SiFive Unmatched"
+service_level = []
+upstream_version = "24.10.0"
+
+[blob]
+distfiles = [ "openwrt-24.10.0-sifiveu-generic-sifive_unmatched-ext4-sdcard.img.gz",]
+
+[provisionable]
+strategy = "dd_v1"
+
+[metadata.vendor]
+name = "OpenWrt"
+eula = ""
+
+[provisionable.partition_map]
+disk = "openwrt-24.10.0-sifiveu-generic-sifive_unmatched-ext4-sdcard.img"
+
+# This file is created by program Sync Package Index inside support-matrix
+# Run ID: 14399655753
+# Run URL: https://github.com/wychlw/support-matrix/actions/runs/14399655753
